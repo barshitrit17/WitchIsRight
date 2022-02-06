@@ -1,0 +1,89 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body 
+{
+    direction: rtl;
+    color: #fff;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #E0D7FF;
+}
+
+header {
+    background-image: linear-gradient(#402852,#4F3563);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+        display: flex;
+    }
+
+nav ul li 
+    {
+         font-family: 'Varela Round', sans-serif;
+    }
+
+.about
+{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.howToPlay 
+{
+    cursor: pointer;
+}
+
+.logo 
+{
+    max-height: 40px;
+    align-items: center;
+}
+
+.navLink 
+{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+.closeButton 
+{
+    display: none;
+    position: absolute;
+    top: 134px;
+    left: 0;
+    right: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+ourGame {
+    width: 1280px;
+    height: 730px;
+}
+
+.gameContainer {
+    width: 1280px;
+    height: 730px;
+    margin: 0 auto;
+}
